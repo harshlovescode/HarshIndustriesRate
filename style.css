@@ -1,0 +1,35 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
